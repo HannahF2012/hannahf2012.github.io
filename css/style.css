@@ -1,0 +1,55 @@
+
+/* Main title */
+h1 {
+    font-size: 45px;
+}
+ 
+/* Paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+ 
+/* Lists */
+ul {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px #000000;
+}
+ 
+li {
+    margin: 10px 0;
+    font-size: 17px;
+}
+ 
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #beb0b8;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px #000000;}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: #333333;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color:pink 
+   
+}
