@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<!-- CHANGED: The <html> tag was empty (<html lang="en"></html>) and closed before <head>. Fixed so the page structure is valid. -->
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>My Work — Your Name</title>
+  <!-- CHANGED: Title said "My Work — Your Name" on the home page. Updated to match this page and her name. -->
+  <title>Home — Hannah F</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<header>
-  <nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About Me</a>
-  <a href="work.html">My Work</a>
-</nav>
-</header>
 <body>
+  <!-- CHANGED: The <header> was placed outside <body>, which is invalid HTML. Moved it inside <body>. -->
+  <header>
+    <nav>
+      <!-- CHANGED: Links are lowercase so they work on GitHub Pages (which is case-sensitive). See note about renaming Index.html to index.html. -->
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="work.html">My Work</a>
+    </nav>
+  </header>
+
   <h1>Hannah F</h1>
-  <img src="images/avatar.png" alt="Describe your avatar here">
+  <!-- CHANGED: Alt text was the template placeholder "Describe your avatar here". Replaced with a real description. -->
+  <img src="images/avatar.png" alt="Hannah F's avatar">
   <p>Respawn Ready: Sleep is optional. Super trust worthy and enthusiastic.</p>
   <p>My name is Hannah. I also do swimming for chena swim club and for 3 years. The studio I work for is game development.</p>
 </body>
